@@ -1,3 +1,12 @@
+/*
+Input:
+4 2 3 4
+
+Output:
+4
+
+*/
+
 using System;
 
 
@@ -6,14 +15,6 @@ class Solution
 
     public static void Main(string[] args)
     {
-		/*
-			Input:
-			4 2 3 4
-			
-			Output:
-			4
-		
-		*/
         var numbers = Console.ReadLine().Split(' ');
 
         int numberOfStudents = Convert.ToInt32(numbers[0]);
